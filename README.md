@@ -44,6 +44,3 @@ The dataset used includes:
 - **Forecast Accuracy:** RMSE of 1266 and MAPE of 16%.  
 - **Feature Importance:** Weather variables (e.g., temperature and humidity) significantly impact demand.  
 - **Operational Insights:** Clear seasonal trends and demand spikes on weekends and holidays.  
-
-## Project Structure  
-Bike_Sharing_Demand/ │ ├── data/ │ ├── raw_data.csv # Raw input data │ ├── processed_data.csv # Cleaned and preprocessed data │ ├── notebooks/ │ ├── exploratory_analysis.ipynb # EDA and visualizations │ ├── modeling.ipynb # Model building and evaluation │ ├── src/ │ ├── data_preprocessing.py # Data cleaning and feature engineering │ ├── forecasting_model.py # Prophet model implementation │ ├── evaluation.py # Model evaluation metrics │ ├── results/ │ ├── forecasts.csv # Forecasted demand results │ ├── visualizations/ # Graphs and plots │ ├── README.md # Project documentation └── requirements.txt # Required libraries
